@@ -7,4 +7,8 @@ app.get("/", (req,res) => {
     res.json({ message : "home for api"})
 })
 
+app.get("/user", (req,res) => {
+    res.json({ message : "Root User is here"})
+})
+
 app.listen(8000, ()=> { console.log("server running on port 8000")})
