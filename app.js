@@ -11,7 +11,7 @@ app.get("/user", (req,res) => {
     res.json({ message : "Root User is here"})
 })
 app.get("/hello", (req,res) => {
-    res.json({ message : "Nginx -> NodeApp on EC2"})
+    res.json({ message : "Hello Everyone !!!"})
 })
 
 app.listen(8000, ()=> { console.log("server running on port 8000")})
